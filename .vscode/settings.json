@@ -1,0 +1,15 @@
+{
+    "cortex-debug.armToolchainPath": "/usr/bin",
+    "cortex-debug.gdbPath": "/usr/bin/gdb-multiarch",
+    "cortex-debug.openocdPath": "/usr/bin/openocd",
+    "files.associations": {
+        "type_traits": "c",
+        "stm32f446xx.h": "c",
+        "stm32f4xx.h": "c",
+        "stm32f4xx_hal_spi.h": "c",
+        "stm32f4xx_hal_conf.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "stdbool.h": "c",
+        "myspi1.h": "c"
+    }
+}

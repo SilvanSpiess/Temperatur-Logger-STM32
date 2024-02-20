@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "showDevDebugOutput": "parsed",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/build/grp-11-micro-minions.elf",
+            "name": "Debug STM32",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "device": "stm32f446",
+            "svdFile": "${workspaceRoot}/STM32F446.svd",
+            "preLaunchTask":"${defaultBuildTask}",
+            "configFiles": [
+                "openocd.cfg"
+            ]
+        },
+        {
+            "showDevDebugOutput": "parsed",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/grp-11-micro-minions.elf",
+            "name": "Attach STM32",
+            "request": "attach",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "device": "stm32f446",
+            "svdFile": "${workspaceRoot}/STM32F446.svd",
+            "configFiles": [
+                "openocd.cfg"
+            ]
+        }
+    ]
+
+}

@@ -1,0 +1,21 @@
+Ports needed:
+
+Joystick SW_UP A2	    -> PA4
+Joystick SW_DOWN A3	    -> PB0
+Joystick SW_LEFT A4	    -> PC1
+Joystick SW_RIGHT A5	-> PC0
+Joystick SW_CENTER D4	-> PB5
+
+RGB LED_GREEN D9	    -> PC7
+RGB LED_BLUE D8		    -> PA9
+RGB LED_RED D5		    -> PB4
+
+UART *TODO* in lab session
+UART (USART TX) D1 	    -> PA2
+UART (USART RX) D0	    -> PA3
+
+LCD_SCK D13                 -> PA5
+LCD_RESET D12               -> PA6
+LCD MOSI D11                -> PA7
+LCD_CS_N D10                -> PB6
+LCD_A0 D6                   -> PA8

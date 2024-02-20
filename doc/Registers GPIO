@@ -1,0 +1,14 @@
+Switch left PC1 CN7 Pin 36
+
+Switch right PC0 CN7 Pin 38
+
+Sense pin PC12 CN7 Pin 3
+
+Source pin PC10 CN7 Pin 1
+
+LED red PB4 CN10 Pin 27
+
+LED green PC7 CN10 Pin 19
+
+LED blue PA9 CN10 Pin 21
+
